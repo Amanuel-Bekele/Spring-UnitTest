@@ -1,1 +1,5 @@
-insert into ITEM(id, name, price, quantity) values(1087, 'Emmanuel'ITEM , 120, 78 )
+insert into ITEM(id, name, price, quantity) values(1087, 'Emmanuel', 120, 78 )
+insert into ITEM(id, name, price, quantity) values(1012, 'John Doe', 120, 78 )
+insert into ITEM(id, name, price, quantity) values(1231, 'Trump', 120, 78 )
+insert into ITEM(id, name, price, quantity) values(1542, 'Fish', 120, 78 )
+insert into ITEM(id, name, price, quantity) values(8765, 'Dave', 120, 78 )
