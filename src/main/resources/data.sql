@@ -1,0 +1,1 @@
+insert into ITEM(id, name, price, quantity) values(1087, 'Emmanuel'ITEM , 120, 78 )

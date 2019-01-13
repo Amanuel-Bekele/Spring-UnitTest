@@ -1,11 +1,24 @@
 package com.emmanuel.test.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Transient;
+
+@Entity
+@Table(name = "Item")
 public class Item {
 
+    @Id
     private int id;
+
     private String name;
     private int price;
     private int quantity;
+
+    @Transient // <- don't map this item to a db table column
+    private int value;
+
 
     public Item(int id, String name, int price, int quantity) {
 
@@ -50,6 +63,13 @@ public class Item {
         this.quantity = quantity;
     }
 
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
 
     @Override
     public String toString() {
