@@ -53,7 +53,7 @@ public class ItemControllerTest {
     public void getDummyItemTest_jsonAssert() throws Exception {
 
         /*
-            strict false -> only check that key-value pairs match
+            strict false -> only check the given key-value pairs match
             strict true -> All Each key value pairs must exist and match.
          */
 
